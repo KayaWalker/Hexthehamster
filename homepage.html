@@ -1,5 +1,14 @@
 <!DOCTYPE html>
+
+<script>
+    var color = "";
+    function assign(button){
+        color = button;
+    }
+</script>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +19,10 @@
 <py-script src = "/hexGame.py"></py-script>
 <body>
     hello
-    <button type="button" onclick="alert('You clicked the button!')">red</button>
-    <py-script
-    <button type="button">white</button>
-    <button type="button">green</button>
-    <button type="button">blue</button>
-    <button type="button">chartreuse</button>
+    <button type="button" onCLick='assign("red")'>red</button>
+    <button type = "button" onCLick='assign("white")'>white</button>
+    <button type="button" onCLick='assign("green")'>green</button>
+    <button type="button" onCLick='assign("blue")'>blue</button>
+    <button type="button" onCLick='assign("chartreuse")'>chartreuse</button>
 </body>
 </html>
