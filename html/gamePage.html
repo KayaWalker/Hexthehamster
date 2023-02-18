@@ -13,56 +13,95 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hex The Hamster</title>
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/style_game.css">
     </head>
-    <style>
-        body{background-image: url('/assets/Control_Panel.jpg');
-        max-height: 100%;
-        max-width: 100%;
-        background-position: 0%;
-        background-repeat: no-repeat;
-        }
-    </style>
     <body>
+        <img id="manual" src = "/assets/User_Manual.png" alt = "Hex the Hamster">
+        <img id="control" src = "/assets/Control_Panel.jpg" alt = "Spaceship Contol Panel">
         <div>
             <button class = "red" type = "color" id = "red" name = "red" value = "#FF0000"
                 onClick='assign("red")'>
-            <label for="red">Red</label>
+            <style>
+                .red {
+                    background-color:red;
+                    border-radius: 100%;
+                    min-height: 60px;
+                    padding:60px;
+                    float:left;
+                    margin:15px;
+                }
+            </style>
         </div>
-        <style>
-            .red {
-
-            }
-        </style>
         <div>
             <button class = "white" type = "color" id = "white" name = "white" value = "#FFFFFF"
                 onClick='assign("white")'>
-            <label for="white">White</label>
+            <style>
+                .white {
+                    background-color:white;
+                    border-radius: 100%;
+                    min-height: 60px;
+                    padding: 60px;
+                    margin: 15px;
+                }
+            </style>
         </div>
         <div>
             <button class = "green" type = "color" id = "green" name = "green" value = "#00FF00"
                 onClick='assign("green")'>
-            <label for="green">Green</label>
+            <style>
+                .green {
+                    background-color:green;
+                    border-radius: 100%;
+                    min-height: 60px;
+                    padding: 60px;
+                    float:left;
+                    margin: 15px;
+                }
+            </style>
         </div>
         <div>
             <button class = "chartreuse" type = "color" id = "chartreuse" name = "chartreuse" value = "#DFFF00"
                 onClick='assign("chartreuse")'>
-            <label for="chartreuse">Chartreuse</label>
+            <style>
+                .chartreuse {
+                    background-color:chartreuse;
+                    border-radius: 100%;
+                    min-height: 60px;
+                    padding: 60px;
+                    margin: 15px;
+
+                }
+            </style>
         </div>
         <div>
             <button class = "purple" type = "color" id = "purple" name = "purple" value = "#A020F0"
                 onClick='assign("purple")'>
-            <label for="purple">purple</label>
+            <style>
+                .purple {
+                    background-color:purple;
+                    border-radius: 100%;
+                    min-height: 60px;
+                    padding: 60px;
+                    float:left;
+                    margin: 15px;
+                }
+            </style>
         </div>
         <div>
             <button class = "blue" type = "color" id = "blue" name = "blue" value = "#0000FF"
                 onClick='assign("blue")'>
-            <label for="blue">Blue</label>
+            <style>
+                .blue {
+                    background-color:blue;
+                    border-radius: 100%;
+                    min-height: 60px;
+                    padding: 60px;
+                    margin: 15px
+                }
+            </style>
         </div>
-
         <buttons style="font-size: 30px;" type="button" onClick="window.location.href='/html/exitPage.html';">Click here to exit!</button>
 
-        <img src = "/assets/User_Manual.png" alt = "Hex the Hamster"
-        width = "500">
+        
     </body>
 </html>

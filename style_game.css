@@ -1,0 +1,15 @@
+html {
+    background-color: #777777;
+    font-size: 64px;
+    color: rgb(239, 197, 197);
+}
+
+#control {
+    height: 14cm;
+    float: right;
+}
+
+#manual {
+    height: 14cm;
+    float: left;
+}
