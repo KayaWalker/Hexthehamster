@@ -85,9 +85,9 @@ while bool == 0:
 if firsttry == 0:
     score += 1
 
-firsttry = 0
 # Question 6
 bool = 0
+firsttry = 0
 
 while bool == 0:
     first_q = input("Hex code #A020F0. Click the color:")
