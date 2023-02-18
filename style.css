@@ -2,7 +2,9 @@ html {
     background-image: url('assets/Space_Background.jpg');
     max-height: 100%;
     max-width: 100%;
+    background-position: 0%;
+    background-repeat: no-repeat;
+
     font-size: 64px;
     color: rgb(239, 197, 197);
-
 }
