@@ -1,6 +1,7 @@
 
 score = 0
 
+print("Help Hex figure out the codes. You will receive a point for every color guessed correctly on the first try.")
 # Question 1
 bool = 0
 firsttry = 0
