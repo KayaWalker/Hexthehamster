@@ -16,17 +16,17 @@
         <link rel="stylesheet" href="/style_game.css">
     </head>
     <body>
+        <img id="manual" src = "/assets/User_Manual.png" alt = "Hex the Hamster">
         <div>
             <button class = "red" type = "color" id = "red" name = "red" value = "#FF0000"
                 onClick='assign("red")'>
+            <label for="red">Red</label>
             <style>
                 .red {
-                    display:flex;
-                    align-items:right;
+                    display:inline-block;
                     background-color:red;
                     border-radius: 100%;
                     min-height: 30px;
-                    float:left;
                     padding: 10px;
                     padding-right:15px;
                     margin: 15px;
@@ -36,10 +36,9 @@
         <div>
             <button class = "white" type = "color" id = "white" name = "white" value = "#FFFFFF"
                 onClick='assign("white")'>
+            <label for="white">White</label>
             <style>
                 .white {
-                    display:flex;
-                    align-items:right;
                     background-color:white;
                     border-radius: 100%;
                     min-height: 30px;
@@ -52,22 +51,18 @@
         <div>
             <button class = "green" type = "color" id = "green" name = "green" value = "#00FF00"
                 onClick='assign("green")'>
+            <label for="green">Green</label>
             <style>
                 .green {
-                    display:flex;
-                    align-items:right;
                     background-color:green;
-                    border-radius: 100%;
-                    min-height: 30px;
-                    float:left;
-                    padding:10px;
-                    padding-right:15px;
+                    float:right;
                 }
             </style>
         </div>
         <div>
             <button class = "chartreuse" type = "color" id = "chartreuse" name = "chartreuse" value = "#DFFF00"
                 onClick='assign("chartreuse")'>
+            <label for="chartreuse">Chartreuse</label>
             <style>
                 .chartreuse {
                     display:flex;
@@ -84,26 +79,20 @@
         <div>
             <button class = "purple" type = "color" id = "purple" name = "purple" value = "#A020F0"
                 onClick='assign("purple")'>
+            <label for="purple">purple</label>
             <style>
                 .purple {
-                    display:flex;
-                    align-items:right;
                     background-color:purple;
-                    border-radius: 100%;
-                    min-height: 30px;
-                    float:left;
-                    padding: 10px;
-                    padding-right:15px;
+                    float:right;
                 }
             </style>
         </div>
         <div>
             <button class = "blue" type = "color" id = "blue" name = "blue" value = "#0000FF"
                 onClick='assign("blue")'>
+            <label for="blue">Blue</label>
             <style>
                 .blue {
-                    display:flex;
-                    align-items:right;
                     background-color:blue;
                     border-radius: 100%;
                     min-height: 30px;
