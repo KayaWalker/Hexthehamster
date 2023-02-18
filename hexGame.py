@@ -10,7 +10,7 @@ buttons = ["White","Red", "Blue","Green", "Chartreuse"]
 bool = 0
 
 while bool == 0:
-    first_q = input("Hex code 000000. Enter Color:")
+    first_q = input("Hex code 000000. Click the color:")
     if first_q == "White":
         bool = 1
         print("Great job! you got the first button!")
@@ -22,7 +22,7 @@ while bool == 0:
 bool = 0
 
 while bool == 0:
-    first_q = input("Hex code FF0000. Enter Color:")
+    first_q = input("Hex code FF0000. Click the color:")
     if first_q == "Red":
         bool = 1
         print("Great job! you got the second button!")
@@ -33,7 +33,7 @@ while bool == 0:
 bool = 0
 
 while bool == 0:
-    first_q = input("Hex code 0000FF. Enter Color:")
+    first_q = input("Hex code 0000FF. Click the color:")
     if first_q == "Blue":
         bool = 1
         print("Great job! you got the third button!")
@@ -44,7 +44,7 @@ while bool == 0:
 bool = 0
 
 while bool == 0:
-    first_q = input("Hex code 00FF00. Enter Color:")
+    first_q = input("Hex code 00FF00. Click the color:")
     if first_q == "Green":
         bool = 1
         print("Great job! you got the fourth button!")
@@ -56,7 +56,7 @@ while bool == 0:
 bool = 0
 
 while bool == 0:
-    first_q = input("Hex code DFFF00. Enter Color:")
+    first_q = input("Hex code DFFF00. Click the color:")
     if first_q == "Chartreuse":
         bool = 1
         print("Great job! you got the Last button!")
