@@ -17,8 +17,9 @@
     </head>
     <style>
         body{background-image: url('/assets/Control_Panel.jpg');
+        max-height: 100%;
         max-width: 100%;
-
+        background-position: 0%;
         background-repeat: no-repeat;
         }
     </style>
@@ -28,13 +29,18 @@
                 onClick='assign("red")'>
             <label for="red">Red</label>
         </div>
+        <style>
+            .red {
+
+            }
+        </style>
         <div>
             <button class = "white" type = "color" id = "white" name = "white" value = "#FFFFFF"
                 onClick='assign("white")'>
             <label for="white">White</label>
         </div>
         <div>
-            <button class = "white" type = "color" id = "green" name = "green" value = "#00FF00"
+            <button class = "green" type = "color" id = "green" name = "green" value = "#00FF00"
                 onClick='assign("green")'>
             <label for="green">Green</label>
         </div>
@@ -55,5 +61,8 @@
         </div>
 
         <buttons style="font-size: 30px;" type="button" onClick="window.location.href='/html/exitPage.html';">Click here to exit!</button>
+
+        <img src = "/assets/User_Manual.png" alt = "Hex the Hamster"
+        width = "500">
     </body>
 </html>
